@@ -117,6 +117,7 @@ public class GameplayScreen implements Screen {
         enemies.add(new float[]{250f, GROUND_Y, 80f, 200f, 350f});
         enemies.add(new float[]{450f, GROUND_Y, 60f, 400f, 550f});
 
+        coins = new ArrayList<>();
         for (int i = 0; i < 5; i++) {
             coins.add(new Rectangle(150 + i * 70, 200, 32, 32));
         }
